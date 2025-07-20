@@ -13,10 +13,7 @@ public class King extends ChessPiece {
 
 	@Override
 	public String toString() {
-		if (Color.WHITE == super.getColor()) {
-			return "\u2654";
-		} 
-		return "\u265A";
+		return "K";
 	}
 	
 	private boolean canMove(Position position) {

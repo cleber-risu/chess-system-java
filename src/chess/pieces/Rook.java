@@ -13,10 +13,7 @@ public class Rook extends ChessPiece {
 
 	@Override
 	public String toString() {
-		if (Color.WHITE == super.getColor()) {
-			return "♖";
-		}
-		return "♜";
+		return "R";
 	}
 	
 	@Override
